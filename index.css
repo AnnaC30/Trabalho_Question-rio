@@ -1,0 +1,59 @@
+body {
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20220422/pngtree-light-effect-dna-medical-background-image_1074130.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    text-align: center;
+}
+hr {
+    border-color: rgb(17, 44, 44);
+}
+h1 {
+    text-align: center;
+}
+header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 4px black;
+    color: white;
+}
+nav {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.questionario {
+    background-color: rgb(17, 44, 44);
+    border-radius: 50px;;
+}
+.questionario ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: large;
+}
+.questionario ul li {
+    display: inline;
+}
+.questionario ul li a {
+    display: block;
+    color: white; 
+    text-decoration: none;
+    padding: 15px 20px;
+}
+.questionario ul li a:hover {
+    background-color: rgb(17, 44, 44);
+    border-radius: 50px;
+}
+img {
+    position: absolute;
+    top: 5%;
+    left: 25%;
+    transform: translateX(-50%);
+    z-index: 1;
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,88 @@
+body {
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20220422/pngtree-light-effect-dna-medical-background-image_1074130.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+hr {
+    border-color: rgb(17, 44, 44);
+}
+h1 {
+    text-align: center;
+}
+header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 4px black;
+    color: white;
+}
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 4px black;
+    color: white;
+}
+.gabarito {
+    background-color: rgb(17, 44, 44);
+    border-radius: 50px;;
+}
+.gabarito ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: large;
+}
+.gabarito ul li {
+    display: inline;
+}
+.gabarito ul li a {
+    display: block;
+    color: white; 
+    text-decoration: none;
+    padding: 15px 20px;
+}
+.gabarito ul li a:hover {
+    background-color: rgb(17, 44, 44);
+    border-radius: 50px;
+}
+.gabarito-text {
+    display: none;
+    margin-top: 10px;
+    color: rgb(82, 0, 0);
+}
+.refazer {
+    background-color: rgb(17, 44, 44);
+    border-radius: 50px;;
+}
+.refazer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: large;
+}
+.refazer ul li {
+    display: inline;
+}
+.refazer ul li a {
+    display: block;
+    color: white; 
+    text-decoration: none;
+    padding: 15px 20px;
+}
+.refazer ul li a:hover {
+    background-color: rgb(17, 44, 44);
+    border-radius: 50px;
+}
+#voltar {
+    bottom: 20px;
+    right: 5px;
+    background-color: rgb(17, 44, 44);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    z-index: 10;
+}
+#voltar:hover {
+    background-color: rgb(8, 20, 20);
+}
